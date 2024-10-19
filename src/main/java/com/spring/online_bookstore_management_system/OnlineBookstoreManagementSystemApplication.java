@@ -8,7 +8,6 @@ public class OnlineBookstoreManagementSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OnlineBookstoreManagementSystemApplication.class, args);
-
 	}
 
 }
