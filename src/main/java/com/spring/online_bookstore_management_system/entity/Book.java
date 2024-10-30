@@ -23,26 +23,26 @@ public class Book {
     @Id
     private Long id;
 
-    @NotNull
-    @Size(min = 2, max = 100)
+//    @NotNull
+//    @Size(min = 2, max = 100)
     private String title;
 
-    @NotNull
-    @Size(min = 2, max = 100)
+//    @NotNull
+//    @Size(min = 2, max = 100)
     private String author;
 
-    @NotNull
-    @Min(1)
+//    @NotNull
+//    @Min(1)
     private Double price;
 
-    @NotNull
-    @Min(0)
+//    @NotNull
+//    @Min(0)
     private Integer stock;
 
-    @ManyToMany(mappedBy = "books")
-    private List<Cart> carts;
-
-    @ManyToMany(mappedBy = "bookList")
-    private List<Order> orders;
+//    @ManyToMany(mappedBy = "books")
+//    private List<Cart> carts;
+//
+//    @ManyToMany(mappedBy = "bookList")
+//    private List<Order> orders;
 
 }
